@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Recognition</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fruit Recognition</h1>
+        
+        <!-- 上傳表單 -->
+        <form id="upload-form">
+            <label for="image-upload" class="upload-label">Upload an image:</label>
+            <input type="file" id="image-upload" name="image" accept="image/*">
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+        <!-- 圖片預覽 -->
+        <div id="image-preview" class="image-preview">
+            <h2>Uploaded Image:</h2>
+            <img id="preview-img" src="" alt="Uploaded Image" style="display: none; max-width: 300px;">
+        </div>
+
+        <!-- 預測結果 -->
+        <div id="result" class="result">
+            <h2>Prediction Result:</h2>
+            <p id="prediction" class="prediction">No prediction yet</p>
+        </div>
+        
+        <!-- 營養資訊 -->
+        <div id="nutrient-info" class="nutrient-info">
+            <h2>Nutritional Information:</h2>
+            <ul id="nutrients-list">
+                <li>No data yet</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

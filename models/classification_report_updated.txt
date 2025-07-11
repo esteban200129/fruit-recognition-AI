@@ -1,0 +1,27 @@
+               precision    recall  f1-score   support
+
+        Apple       0.73      0.51      0.60       402
+      Avocado       0.84      0.78      0.81       379
+       Banana       0.93      0.56      0.70       246
+    Carambola       1.00      0.28      0.44       293
+      Coconut       0.91      0.73      0.81       337
+   Grapefruit       0.87      0.45      0.60       314
+        Guava       0.86      0.50      0.63       378
+         Kiwi       0.91      0.57      0.70       338
+        Lemon       0.74      0.66      0.70       313
+         Lime       0.77      0.48      0.59       258
+       Lychee       0.82      0.56      0.66       297
+    Mandarine       0.75      0.64      0.69       358
+    Nectarine       0.87      0.49      0.62       431
+       Orange       0.59      0.51      0.55       254
+       Papaya       0.97      0.45      0.62       419
+Passion Fruit       0.94      0.65      0.77       386
+    Pineapple       0.30      0.91      0.45       328
+     Pitahaya       0.32      0.67      0.43       315
+   Strawberry       0.43      0.62      0.51       360
+       Tomato       0.40      0.47      0.43       354
+   Watermelon       0.31      0.73      0.43       412
+
+     accuracy                           0.59      7172
+    macro avg       0.73      0.58      0.61      7172
+ weighted avg       0.73      0.59      0.61      7172
