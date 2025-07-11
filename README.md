@@ -1,1 +1,4 @@
 # fruit-recognition-AI
+這是一個AI影像辨識的軟體，這是一項過往的小組專案。
+我所負責的工作則是訓練模型的部分
+模型訓練主要使用keras，其中也運用到了numpy跟matplotlib等等工具
